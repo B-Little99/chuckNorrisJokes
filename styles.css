@@ -5,13 +5,32 @@
 }
 
 body {
-    height: 90vh;
-    width: 90vw;
+    height: 100vh;
+    width: 100vw;
     position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    background-color: turquoise;
+    color: rgb(12, 11, 11);
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.wrapper {
+    width: 100%;
 }
 
 div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 50%;
+    height: 100px;
+    display: inline-block;    
+    left: 20%;
+    top: 20%;
+    margin-top: 30px;
 }
